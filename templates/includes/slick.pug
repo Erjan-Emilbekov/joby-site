@@ -1,0 +1,12 @@
+.slider-block
+	.container
+		.slider-info
+			h3.slider-info__title We give 
+				span best Services
+			p.slider-info__txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti <br> quos dolores et quas molestias excepturi sint occaecati cupiditate non providen
+		.slider-item
+			each item in service_item
+				.slide
+					img(src=`img/${item.img}.png`, alt="")
+					h4.slide__title= item.title
+					p.slide__txt= item.txt

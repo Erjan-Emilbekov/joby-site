@@ -1,0 +1,66 @@
+.work
+	background: #fff 
+	text-align: center
+	&__title
+		font-size: 30px
+		color: $grey
+		padding: 78px 0 92px 
+		+tablet
+			padding: 40px 0 50px 
+		span
+			color: $green 
+	&__flex
+		display: flex
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+		+tablet
+			-webkit-justify-content: space-around
+			justify-content: space-around
+	&__item
+		width: 270px 
+		border: 1px solid #f5f5f5 
+		margin: 0 0 30px 
+		position: relative
+		-webkit-transition: all 0.5s ease-in 
+		-moz-transition: all 0.5s ease-in 
+		-ms-transition: all 0.5s ease-in 
+		-o-transition: all 0.5s ease-in 
+		transition: all 0.5s ease-in 
+	&__link
+		text-decoration: none
+		text-transform: uppercase
+		font-weight: 800 
+		font-size: 12px 
+		color: #fff 
+		display: inline-block
+		position: absolute
+		bottom: 65px 
+		margin: 0 0 0 -66px
+		left: 50%
+		padding: 10px 34px 
+		-webkit-transition: all 0.3s ease 
+		-moz-transition: all 0.3s ease 
+		-ms-transition: all 0.3s ease 
+		-o-transition: all 0.3s ease 
+		transition: all 0.3s ease 
+		&:hover
+			color: #141414
+	&__item:nth-child(1), &__item:nth-child(7)
+		.work__link
+			background: #2ca7e0
+	&__item:nth-child(2), &__item:nth-child(5)
+		.work__link
+			background: #5bbc2e
+	&__item:nth-child(3), &__item:nth-child(8)
+		.work__link
+			background: #c42fc9
+	&__item:nth-child(4), &__item:nth-child(6)
+		.work__link
+			background: #dac00e
+	&__mini-title
+		padding: 42px 0 29px 
+		font-size: 12px
+		color: #4B4B4B 

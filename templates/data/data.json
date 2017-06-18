@@ -1,0 +1,107 @@
+{
+	"menu_item": ["Freelancers", "Employers", "Services", "Portfolio", "About Us", "Team"],
+	"service_item": [
+		{
+			"img": "service-1-icon",
+			"title": "handicraft",
+			"txt": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates"
+		},
+		{
+			"img": "service-2-icon",
+			"title": "branding desing",
+			"txt": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias"
+		},
+		{
+			"img": "service-3-icon",
+			"title": "digital graphic",
+			"txt": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe evennet"
+		},
+		{
+			"img": "service-4-icon",
+			"title": "photography",
+			"txt": "Itaque earum rerum hic tenetura sapiente delectus, ut aut reiciendis voluptatibus maiores"
+		},
+		{
+			"img": "service-1-icon",
+			"title": "handicraft",
+			"txt": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates"
+		},
+		{
+			"img": "service-2-icon",
+			"title": "branding desing",
+			"txt": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias"
+		},
+		{
+			"img": "service-3-icon",
+			"title": "digital graphic",
+			"txt": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe evennet"
+		},
+		{
+			"img": "service-4-icon",
+			"title": "photography",
+			"txt": "Itaque earum rerum hic tenetura sapiente delectus, ut aut reiciendis voluptatibus maiores"
+		},
+		{
+			"img": "service-1-icon",
+			"title": "handicraft",
+			"txt": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates"
+		},
+		{
+			"img": "service-2-icon",
+			"title": "branding desing",
+			"txt": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias"
+		},
+		{
+			"img": "service-3-icon",
+			"title": "digital graphic",
+			"txt": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe evennet"
+		},
+		{
+			"img": "service-4-icon",
+			"title": "photography",
+			"txt": "Itaque earum rerum hic tenetura sapiente delectus, ut aut reiciendis voluptatibus maiores"
+		}
+	],
+	"work_item": [
+		{
+			"photo": "1",
+			"link": "Graphics",
+			"title": "Round Icons Design"
+		},
+		{
+			"photo": "2",
+			"link": "Graphics",
+			"title": "Stationary Design"
+		},
+		{
+			"photo": "3",
+			"link": "Graphics",
+			"title": "Logo Design"
+		},
+		{
+			"photo": "4",
+			"link": "Graphics",
+			"title": "Branding"
+		},
+		{
+			"photo": "5",
+			"link": "Graphics",
+			"title": "Visiting Card Design"
+		},
+		{
+			"photo": "6",
+			"link": "Graphics",
+			"title": "Brochure Design"
+		},
+		{
+			"photo": "7",
+			"link": "Graphics",
+			"title": "Branding"
+		},
+		{
+			"photo": "8",
+			"link": "Graphics",
+			"title": "Stationary Design"
+		}
+	]
+}

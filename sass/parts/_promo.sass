@@ -1,0 +1,37 @@
+.promo-1
+	background: #fff
+.promo
+	&__flex
+		display: flex
+		-webkit-justify-content: space-around
+		justify-content: space-around
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+	&__item
+		width: 50% 
+		+tablet
+			width: 100%
+			height: 100%
+	&-1__item--img
+		background: url('../img/promo-block-1.png') 19% 50% no-repeat
+	&-2__item--img
+		background: url('../img/promo-block-2.png') 56% 49% no-repeat
+	&__title
+		color: $grey
+		font-size: 30px
+		padding: 136px 0 15px
+		line-height: 1
+		+tablet
+			padding: 86px 0 15px 
+		span
+			color: $green
+	&__txt
+		font-size: 14px
+		font-weight: 500 
+		line-height: 24px  
+		color: $grey 
+		padding: 0 0 94px 
+		+tablet
+			padding: 0 0 44px 
+	

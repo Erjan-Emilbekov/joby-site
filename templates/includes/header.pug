@@ -1,0 +1,11 @@
+header.header
+	.container.clearfix
+		a(href="#").logo
+			img(src="img/logo.png", width="128", height="47" alt="")
+		a.menu_ham#menu_ham
+			span.ham_lines
+		nav.menu
+			ul.menu_item
+				each item in menu_item
+					li.menu_point
+						a(href="#").menu_link= item

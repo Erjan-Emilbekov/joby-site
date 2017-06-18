@@ -1,0 +1,11 @@
+.work
+	.container
+		h3.work__title Recent Work Done on 
+			span job board
+		.work__flex
+			each item in work_item
+				.work__item
+					img(src=`upload/${item.photo}.jpg`, alt="")
+					a(href="#").work__link= item.link
+					h5.work__mini-title= item.title
+

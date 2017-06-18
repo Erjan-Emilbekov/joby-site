@@ -1,0 +1,67 @@
+.banner
+	background: url("../upload/banner-bc.jpg") 0 0 no-repeat  
+	-webkit-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	text-align: center
+	background-position: 50% 0 
+	&__title
+		font-size: 60px
+		color: $green  
+		padding: 242px 0 0 
+		letter-spacing: -0.5px 
+		line-height: 1.21 
+		+tablet
+			padding: 142px 0 0
+			font-size: 50px 
+		+md
+			padding: 82px 0 0 
+			font-size: 44px   
+		span
+			color: #000 
+	&__txt
+		color: #B2B2B2
+		font-size: 18px  
+		padding: 29px 0  0 
+		margin: 0 0 0 -37px
+		position: relative
+		+tablet
+			margin: 0
+			font-size: 14px 
+		&::after
+			content: ""
+			position: absolute
+			left: 195px
+			top: 12px
+			width: 70% 
+			height: 1px
+			background: #B2B2B2 
+			+tablet
+				left: 12%
+				top: 0
+				width: 80% 
+	&__link
+		display: inline-block
+		font-size: 18px
+		text-decoration: none
+		text-transform: uppercase
+		color: #fff
+		background: $green 
+		padding: 16px 163px
+		-webkit-border-radius: 1px
+		   border-radius: 1px
+		font-weight: 800    
+		margin: 45px 0 150px -18px
+		-webkit-transition: all 0.3s ease 
+		-moz-transition: all 0.3s ease 
+		-ms-transition: all 0.3s ease 
+		-o-transition: all 0.3s ease 
+		transition: all 0.3s ease 
+		&:hover
+			background: #000
+		+tablet
+			margin: 45px 0 80px -18px
+			padding: 16px 120px 
+		+md
+			margin: 45px 0 50px -18px
+			padding: 16px 45px 
